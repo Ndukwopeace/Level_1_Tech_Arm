@@ -1,0 +1,47 @@
+h2{
+    text-align:center;
+    color: black;
+    /* display: block; */
+    /* font:14px/24px "source code pro",Inconsolata; */
+    padding: 24px 15px;
+    
+}
+header,footer,section,aside{
+    margin: 4px 0px 24px 20px;                          
+
+}
+header{
+    background-color: aqua;
+}
+section{
+    float: right;
+    width: 60%;
+    height: 500px;
+    background: rgb(128, 0, 124);
+    margin-left: 0;
+}
+aside{ 
+    float:left;
+    width: 37%;
+    height:500px;
+    background: yellow;
+    margin-right: 0;
+}
+footer{
+    clear:both;
+    background: green;
+
+}
+
+/* group:before,
+group:after{
+    display:table;
+    content:"";
+}
+.group:after{
+    clear:both;
+}
+.group{
+    clear:both;
+    *zoom:1;
+} */
